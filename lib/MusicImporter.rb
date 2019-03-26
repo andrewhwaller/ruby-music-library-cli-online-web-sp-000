@@ -1,11 +1,13 @@
 class MusicImporter
 
-  def initialize
+  @@all = []
+
+  def initialize(file_path)
 
   end
 
   def files
-
+    @@all
   end
 
   def import
