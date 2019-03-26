@@ -1,6 +1,6 @@
 class Genre
 
-  include Findable
+  extend Concerns::Findable
 
   attr_accessor :name
 
