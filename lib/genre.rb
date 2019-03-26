@@ -1,5 +1,7 @@
 class Genre
 
+  include Findable
+
   attr_accessor :name
 
   @@all = []
