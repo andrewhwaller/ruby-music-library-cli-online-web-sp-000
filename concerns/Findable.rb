@@ -3,7 +3,7 @@ module Concerns::Findable
     all.detect { |a| a.name == name }
   end
 
-  def self.find_or_create_by_name(song)
-    self.find_by_name(song) or self.create(song)
+  def self.find_or_create_by_name(name)
+    self.find_by_name(name) or self.create(name)
   end
 end
