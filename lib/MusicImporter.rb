@@ -6,7 +6,7 @@ class MusicImporter
     @path = path
   end
 
-  def files
+  def self.files
     @files.each { |filepath| filepath.basename }
   end
 
